@@ -1,0 +1,16 @@
+{
+  "name": "orsem-w-khammen",
+  "version": "1.0.0",
+  "description": "Tunisian draw-and-guess party game with a tiny WebSocket server",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "8.18.0"
+  }
+}
